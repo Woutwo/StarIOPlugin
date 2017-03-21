@@ -55,6 +55,12 @@
         <string>jp.star-m.starpro</string>
       </array>
     </config-file>
+
+    <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
+      <array>
+        <string>To connect to bluetooth printers we need access to connected devices.</string>
+      </array>
+    </config-file>
   </platform>
 
 </plugin>
